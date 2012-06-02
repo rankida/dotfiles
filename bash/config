@@ -1,0 +1,4 @@
+BOLD_ON="\[\033[1m\]"
+BOLD_OFF="\[\033[m\]"
+
+export PS1="${BOLD_ON}\W \u$ ${BOLD_OFF}"
